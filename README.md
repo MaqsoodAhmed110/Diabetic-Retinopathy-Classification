@@ -11,7 +11,6 @@ This project implements an automated diagnostic system to detect and classify di
 - **Moderate** - Moderate stage
 - **Severe** - Severe stage
 - **Proliferative_DR** - Proliferative Diabetic Retinopathy
-![Sample Dataset](sample1.jpeg)
 ## Project Structure
 
 ```
