@@ -1,5 +1,5 @@
 # Diabetic Retinopathy Classification System
-
+![Project Banner](ban.png)
 A deep learning-based web application for classifying fundus eye images into different stages of diabetic retinopathy using ResNet50 architecture.
 
 ## Overview
@@ -11,7 +11,7 @@ This project implements an automated diagnostic system to detect and classify di
 - **Moderate** - Moderate stage
 - **Severe** - Severe stage
 - **Proliferative_DR** - Proliferative Diabetic Retinopathy
-
+![Sample Dataset](sample1.jpeg)
 ## Project Structure
 
 ```
@@ -32,11 +32,12 @@ hacathon/
 
 ## Dataset
 
-A sample of the dataset used for training can be seen in **1.png**. The dataset consists of high-resolution fundus photographs categorized into the 5 severity stages of diabetic retinopathy.
+A sample of the dataset used for training can be seen in **1.png**.
+ ![Sample Dataset](1.png)The dataset consists of high-resolution fundus photographs categorized into the 5 severity stages of diabetic retinopathy.
 
 ## Model Architecture
 
-The classification model is built using **ResNet50** (Residual Network with 50 layers). A detailed architecture diagram is provided in **resnet.png**. The pre-trained ImageNet weights are fine-tuned with a custom fully-connected layer adapted for our 5-class classification task.
+The classification model is built using **ResNet50** (Residual Network with 50 layers). A detailed architecture diagram is provided in **resnet.png** ![ResNet Architecture](resnet.jpg). The pre-trained ImageNet weights are fine-tuned with a custom fully-connected layer adapted for our 5-class classification task.
 
 ## Installation
 
@@ -84,7 +85,7 @@ python classify.py
 
 ## Results
 
-The web application interface and sample classification results can be visualized in **result.png**, which shows the localhost interface with a classified fundus image and its predicted diabetic retinopathy stage.
+The web application interface and sample classification results can be visualized in **result.png** ![Web Application Result](result.jpeg), which shows the localhost interface with a classified fundus image and its predicted diabetic retinopathy stage.
 
 ## Documentation
 
